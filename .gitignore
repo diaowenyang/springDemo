@@ -1,0 +1,11 @@
+.idea
+*.iml
+target
+logs
+out
+gen
+logs/bootstrap/debug.log
+logs/bootstrap/error.log
+logs/spring.application.name_IS_UNDEFINED
+**/test/*
+
