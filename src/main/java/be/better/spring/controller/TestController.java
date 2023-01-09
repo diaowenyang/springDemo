@@ -11,10 +11,10 @@ import be.better.spring.service.TestService;
 public class TestController {
 
     @AutoWired
-    private TestService salaryService;
+    private TestService testService;
 
     @RequestMapping("/test")
     public Integer testMethod(@RequestParam("num") String num) {
-        return salaryService.testMethod(Integer.valueOf(num));
+        return testService.testMethod(Integer.valueOf(num));
     }
 }
